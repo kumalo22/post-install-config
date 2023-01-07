@@ -3,7 +3,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
+<h1>osTicket - Configuration</h1>
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
@@ -23,34 +23,148 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles
+- Configure Departments
+- Configure Teams
+- Allow anyone to create tickets
+- Allow anyone to create tickets
+- Configure Users (customers)
+- Configure SLA
+- Configure Help Topics
+
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wIWquT0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Roles
+
+
+- Admin Panel -> Agents -> Roles
+- Supreme Admin
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/J1FMYYL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Departments
+
+
+- Admin Panel -> Agents -> Departments
+- System Administrators
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2UV4T1S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Teams
+
+
+- Admin Panel -> Agents -> Teams
+
+   i. Level I Support
+
+   ii. Level II Support
+
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/hvIzzF4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Allow anyone to create tickets
+
+
+- Admin Panel -> Settings -> User Settings
+- Registration Required: Require registration and login to create tickets 
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Ih0guaX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Agents (workers)
+
+
+- Admin Panel -> Agents -> Add New
+
+  i. Jane Doe
+
+  ii. John Doe
+
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/KmMkf6p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Users (customers)
+
+
+- Agent Panel -> Users -> Add New
+
+  i. Karen
+
+  ii. Ken
+
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/g8IAvU5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure SLA
+
+
+- Admin Panel -> Manage -> SLA
+  
+  i. Sev-A (1 hour, 24/7)
+  
+  ii. Sev-B (4 hours, 24/7)
+  
+  iii. Sev-C (8 hours, business hours)
+
+
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/hXseV70.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Help Topics
+
+
+- Admin Panel -> Manage -> Help Topics
+
+  i. Admin Panel -> Manage -> Help Topics
+  
+  ii. Personal Computer Issues 
+  
+  iii. Equipment Request
+
+  iv. Password Reset
+  
+  
+  
+  
+  
+  
+
+
+
